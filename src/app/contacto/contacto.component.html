@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-md-12 text-center">
+    <h2 class="Habilidades fs-3">Contactame</h2>
+<div class="container-fluid text-center">
+  <form [formGroup]="formularioDeContacto" (ngSubmit)="alEnviarMensaje()">
+    <div class="row">
+      <div class="col-md-12 text center">
+        <mat-form-field appearance="fill">
+          <mat-label>nombre</mat-label>
+          <input matInput type="text" formControlName="nombre">
+        </mat-form-field>
+        <div *ngif="formularioDeContacto.controls.nombre.errors" class="text-danger">
+          <div *ngif="formularioDeContacto.controls.nombre.errors.required">se nececita un nombre</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text center">
+        <mat-form-field appearance="fill">
+          <mat-label>mensaje</mat-label>
+          <input matInput type="text" formControlName="mensaje">
+        </mat-form-field>
+        <div *ngif="formularioDeContacto.controls.nombre.errors" class="text-danger">
+          <div *ngif="formularioDeContacto.controls.nombre.errors.required">mensaje es necesario</div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <button mat-raised-button type="submit" color="primary">Enviar Mensaje</button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+</div>

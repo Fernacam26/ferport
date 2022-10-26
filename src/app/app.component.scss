@@ -1,0 +1,45 @@
+header{
+  text-align: center;
+  position: sticky;
+  top: 0;
+  height: 10%;
+  background-color: rgba(0,0,0,0.9);
+  }
+
+button{
+  margin: 15px;
+  color: blue;
+}
+
+.main{
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+}
+
+.miImagen{
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 10px 1px blue;
+}
+.nombre{
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+.parrafo{
+  margin-top: 10px;
+  text-align: justify;
+  box-shadow: 0 0 10px 1px blue;
+}
+
+.mb-3{
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 10px 1px blue;
+}
+
+.mb-4{
+  margin-block-start: 3%;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 10px 1px blue;
+}
+
