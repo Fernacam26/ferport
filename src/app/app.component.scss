@@ -4,7 +4,16 @@ header{
   top: 0;
   height: 10%;
   background-color: rgba(0,0,0,0.9);
+  // position: sticky;
+  // top:0;  
+  // width: 100%;
   }
+
+.arreglo{
+  width: 100%;
+  margin: auto;
+font-family: 'Josefin Sans', sans-serif;  
+}
 
 button{
   margin: 15px;
@@ -12,9 +21,10 @@ button{
 }
 
 .main{
-  background-color: black;
+  background-color: rgb(8, 8, 8);
   color: #fff;
-  padding: 20px;
+  padding: 10px;
+  
 }
 
 .miImagen{
@@ -22,7 +32,7 @@ button{
   box-shadow: 0 0 10px 1px blue;
 }
 .nombre{
-  margin: 10px;
+  margin: 5px;
   margin-bottom: 40px;
 }
 
@@ -32,14 +42,14 @@ button{
   box-shadow: 0 0 10px 1px blue;
 }
 
-.mb-3{
-  border-radius: 5px 5px 5px 5px;
-  box-shadow: 0 0 10px 1px blue;
-}
+// .mb-3{
+//   border-radius: 5px 5px 5px 5px;
+//   box-shadow: 0 0 10px 1px blue;
+// }
 
-.mb-4{
-  margin-block-start: 3%;
-  border-radius: 5px 5px 5px 5px;
-  box-shadow: 0 0 10px 1px blue;
-}
+// .mb-4{
+//   margin-block-start: 3%;
+//   border-radius: 5px 5px 5px 5px;
+//   box-shadow: 0 0 10px 1px blue;
+// }
 
